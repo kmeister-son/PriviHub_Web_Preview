@@ -10,6 +10,7 @@ This is a plain HTML/CSS/JS site with no build step. It is not connected to the 
 - `how-it-works.html` — client-facing booking flow explainer
 - `for-stylists.html` — vendor/stylist pitch and waitlist
 - `reviews.html` — honest "no reviews yet" pre-launch page
+- `privacy.html`, `terms.html`, `vendor-terms.html`, `booking-policy.html`, `delete-account.html`, `legal.html` — legal pages (Privacy Policy, Customer Terms, Vendor Terms, Booking Policy, account deletion, and company details / cookie notice / website terms). **Drafts:** each has `<meta name="robots" content="noindex, nofollow">` and a yellow draft banner, and contains yellow `mark.ph` placeholders. Before launch, fill every placeholder, get attorney sign-off, then remove the noindex meta and the `.draft-banner` div on each page and add the pages to `sitemap.xml`. Source text lives in the CoWork `Legal` folder (Word files).
 
 ## Structure
 
